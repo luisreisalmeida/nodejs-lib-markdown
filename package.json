@@ -1,0 +1,27 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisreisalmeida/nodejs-lib-markdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisreisalmeida/nodejs-lib-markdown/issues"
+  },
+  "homepage": "https://github.com/luisreisalmeida/nodejs-lib-markdown#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
